@@ -1,0 +1,37 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
+
+# Java / Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+*.log
+hs_err_pid*
+
+# Spring Boot
+*.iml
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite cache
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Env files
+.env
+.env.* 
